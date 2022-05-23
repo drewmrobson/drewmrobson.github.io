@@ -1,1 +1,1 @@
-A work is never completed except by some accident such as weariness, satisfaction, the need to deliver, or death: for, in relation to who or what is making it, it can only be one stage in a series of inner transformations.
+*A work is never completed except by some accident such as weariness, satisfaction, the need to deliver, or death: for, in relation to who or what is making it, it can only be one stage in a series of inner transformations. - [Paul Valéry](https://en.wikiquote.org/wiki/Paul_Val%C3%A9ry)*
