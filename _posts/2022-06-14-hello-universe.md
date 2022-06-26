@@ -10,4 +10,4 @@ Code can always be neater, more concise, clearer, more performant, more elegant.
 
 Beyond software, sacred cows should be questioned, dogma should be avoided, and decisions made by the demonstrable merit of the proposal. Pursue continuous improvement by responding to change and responding when presented with new information.
 
-The universe is chaos, and everything is a draft.
+The universe is chaos, and everything is a draft. 1
