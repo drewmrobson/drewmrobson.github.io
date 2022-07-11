@@ -2,12 +2,8 @@
 
 > A work is never completed except by some accident such as weariness, satisfaction, the need to deliver, or death: for, in relation to who or what is making it, it can only be one stage in a series of inner transformations. - Paul Valery
 
-This nicely encapsulates the artist's struggle, in that there is always more than can be done, refined, rethought, iterated upon. An endless move towards an unachievable state of perfection of the artifact.
+Welcome to my blog, and my perspective on software development. While building software, there is always more that can be done, refined and iterated upon. There can be an endless move towards an unachievable state of perfection, as the act of software development is an act of creativity.
 
-While maybe not obvious to the outside oberserver, this also applies to software development. While the end result of software is often defined by strict requirements, it is the creative process as to how these requirements are met that is in the hands of the developer, as an artist.
+Software can meet the minimum user requirements and the creator still not be happy with it, as there are other aspects of the creation. Code can always be written neater, more concise, clearer and more performant. Systems can be simplified. Teams can operate more effectively and deliver more value, more often.
 
-Code can always be neater, more concise, clearer, more performant, more elegant. Systems can be simplified. Teams can operate more effectively and deliver more value, more often.
-
-Beyond software, sacred cows should be questioned, dogma should be avoided, and decisions made by the demonstrable merit of the proposal. Pursue continuous improvement by responding to change and responding when presented with new information.
-
-The universe is chaos, and everything is a draft. 1
+It helps to view the process of software development as endless revisions of a draft where at some point, your editor will publish it and give you feedback for a new revision; or you are directed to move onto something else. Do your best, enjoy the process and accept that the universe is chaos and everything is a draft.
