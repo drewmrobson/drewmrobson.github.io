@@ -20,6 +20,8 @@ linkedin_username: "drewmrobson"
 #########################################################################################
 theme: "minima"
 
+show_excerpts: true
+
 rss: rss
 
 kramdown:
