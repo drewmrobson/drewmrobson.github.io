@@ -30,6 +30,7 @@ linkedin_username: "drewmrobson"
 # Build settings
 theme: minima
 show_excerpts: true
+future: true
 rss: rss
 plugins:
   - jekyll-feed

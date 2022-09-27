@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Hello Universe"
-date:   2022-06-14 18:00:00 +1000
-categories: abc
+date:   2022-09-27 00:00:00 +1000
+categories: misc
 ---
 > A work is never completed except by some accident such as weariness, satisfaction, the need to deliver, or death: for, in relation to who or what is making it, it can only be one stage in a series of inner transformations. - Paul Valery
 
