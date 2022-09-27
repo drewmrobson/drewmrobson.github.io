@@ -1,2 +1,3 @@
 # drewmrobson.github.io
-Quickstart blog
+
+Drew Robson's blog, built with Jekyll and hosted on GitHub pages.
