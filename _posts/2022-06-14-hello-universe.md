@@ -1,5 +1,9 @@
-# Hello Universe
-
+---
+layout: post
+title:  "Hello Universe"
+date:   2022-06-14 18:00:00 +1000
+categories: abc
+---
 > A work is never completed except by some accident such as weariness, satisfaction, the need to deliver, or death: for, in relation to who or what is making it, it can only be one stage in a series of inner transformations. - Paul Valery
 
 Welcome to my blog, and my perspective on software development. While building software, there is always more that can be done, refined and iterated upon. There can be an endless move towards an unachievable state of perfection, as the act of software development is an act of creativity.
