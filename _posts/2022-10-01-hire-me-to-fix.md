@@ -5,18 +5,27 @@ date:   2022-10-01 00:00:00 +1000
 categories: security
 excerpt_separator: <!--more-->
 ---
-After the [recent Optus customer identity data breach](https://blog.drewrobson.consulting/security/2022/09/27/the-optus-breach.html), Optus should absolutely hire me to fix their API security. Let's talk about the breach at the technical level.
+After the [recent Optus customer identity data breach](https://blog.drewrobson.consulting/security/2022/09/27/the-optus-breach.html), Optus should absolutely hire me to fix their API security. Let's talk about fixing the breach at the technical level.
 
 <!--more-->
 
-From what I can gather, the attacker simply consumed an unsecured API which was designed to read details from a customer identity database. As per the above breakdown, government regulations required Optus to store PII data in some form. While this isn't ideal, without better government we're stuck with the reality that a lot of companies will have your data.
+The attacker simply consumed an unsecured API designed to read from a customer identity database. As explained in my post above, Optus was required to store this data and should have treated it with the seriousness it deserves. Instead, poor process and implementation left a wide-open door for anyone to find.
 
-Stuck with this reality, the goal now becomes limiting access to, and protection of, this valuable data.
+Optus could have put these measures in place and still had the same breach...
 
-1. Process, automation and sensible defaults are key. No APIs should be deployed outside of a managed process (peer code review, variable management, infrastructre as code,)
-2. All APIs should be secured by an appopriately-scoped API key by default. The first hurdle an attacker would now face would be not having a valid API key.
-3. As customer identity is so sensitive, the API should also be configured with a second layer of a Bearer token which is only issued when a valid 2FA challenge has been passed. This ensures only users with granted access to the API can proceed, and can confirm their identity with 2FA.
-4. The Optus breach was through a test environment, and this can be fixed by isolating the production customer identity database on a separate virtual network from the test environment API Gateway.
-5. Consider who needs access to this data. If it doesn't need to be public, consider only deploying the API to an internally-secured API Gateway.
+- Data encryption in transit
+- Data encryption at rest
+- Limit the user accounts with access to the custom identity database
 
-[1](https://www.ultima.com/blog/discover-how-secure-your-azure-api-management-infrastructure)
+...because the API was designed to return custom identity data to the API consumer. Indeed, [Kelly Bayer Rosmarin](https://blog.drewrobson.consulting/security/2022/09/29/kelly-bayer-rosmarin.html) has claimed the data was encrypted which shows she has no understanding of the problem. The API was designed to return the encrypted data as plain text, as the attacker has confirmed.
+
+What Optus should have done, and I do in my work:
+
+1. Secure the API with at the minimum an API key, with a regular key rotation
+2. For sensitive data such as PII, add an additional layer of authorized users via OAuth/JWT or client certificates
+3. Isolate production databases from test environments, making it impossible for production data to be read from a test API.
+4. Ensure separate Internal and Public API Gateways based on intended use of the system
+
+The root cause is really a process issue. APIs should only be deployed after rigorous peer review in an automated and repeatable way with sensible defaults, making it impossible to deploy an insecured API and ensuring security standards are envforced in all environments.
+
+This is all really basic stuff and Optus need to address their software development practices as well as their stewardship of Australian's identity data.
