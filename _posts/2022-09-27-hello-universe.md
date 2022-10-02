@@ -10,4 +10,4 @@ Welcome to my blog, and my perspective on software development. While building s
 
 Software can meet the minimum user requirements and the creator still not be happy with it, as there are other aspects of the creation. Code can always be written neater, more concise, clearer and more performant. Systems can be simplified. Teams can operate more effectively and deliver more value, more often.
 
-It helps to view the process of software development as endless revisions of a draft where at some point, your editor will publish it and give you feedback for a new revision; or you are directed to move onto something else. Do your best, enjoy the process and accept that the universe is chaos and everything is a draft.
+It helps to view the process of software development as endless revisions of a draft where at some point, your editor will publish it and give you feedback for a new revision; or you are directed to move onto something else. Do your best, enjoy the process and accept that the universe is chaos and everything is a draft. 
