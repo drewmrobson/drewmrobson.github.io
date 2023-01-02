@@ -3,6 +3,7 @@ layout: post
 title:  "Custom CSS in Jekyll in Docker in 2022"
 date:   2022-10-02 00:00:00 +1000
 categories: build
+tags: build
 excerpt_separator: <!--more-->
 ---
 This blog is built with [Jekyll](https://jekyllrb.com/) (a static site generator) and [GitHub Pages](https://pages.github.com/) (a static site host which supports Jekyll). It was frustrating learning how to run a Jekyll development environment and customise the site css, so I've provided a short guide with the aim to save others the pain.

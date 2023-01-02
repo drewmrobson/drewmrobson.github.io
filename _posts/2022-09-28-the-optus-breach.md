@@ -3,6 +3,7 @@ layout: post
 title:  "What you need to know about the Optus Breach 2022"
 date:   2022-09-28 00:00:00 +1000
 categories: security
+tags: security
 excerpt_separator: <!--more-->
 ---
 On the 22nd of September, 2022, Optus *customers* were the victims of a massive data breach. Optus are storing PII (Personally Identifiable Information) from customers within the past 6 years, and an attacker was able to access millions of these records.

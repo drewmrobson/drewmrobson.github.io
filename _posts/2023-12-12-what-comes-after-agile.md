@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "What comes after Agile"
-date:   2022-12-25 00:00:00 +1000
+date:   2023-12-12 00:00:00 +1000
 categories: agile
+tags: agile
 excerpt_separator: <!--more-->
 ---
 

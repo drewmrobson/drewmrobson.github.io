@@ -3,6 +3,7 @@ layout: post
 title:  "Optus should hire me to fix their APIs"
 date:   2022-10-01 00:00:00 +1000
 categories: security
+tags: security
 excerpt_separator: <!--more-->
 ---
 After the [recent Optus customer identity data breach](https://blog.drewrobson.consulting/security/2022/09/27/the-optus-breach.html), Optus should absolutely hire me to fix their API security. Let's talk about fixing the breach at the technical level.
