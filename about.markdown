@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Drew has a long history in software development, with a focus on building great software, and great software teams. With the rise of cloud computing, he has become an expert in Microsoft Azure Integration and APIs.
+I build software, help others build software, and I'm really good at it. Reach out if you're interested in running your applications on Azure, better software delivery practices, or simply the best places to eat in Brisbane.
+
+[Learn More](https://www.drewrobson.consulting/)

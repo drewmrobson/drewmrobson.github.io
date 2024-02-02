@@ -14,9 +14,9 @@
   }
 }
 
-h1 {
-    color: blue;
-}
+// h1 {
+//     color: blue;
+// }
 
 .site-title {
   font-weight: 500;
@@ -34,6 +34,11 @@ h1 {
 }
 
 .post-list-heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.post-title {
   font-size: 20px;
   font-weight: 500;
 }
