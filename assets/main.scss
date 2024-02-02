@@ -3,21 +3,6 @@
 
 @import "minima";
 
-.post-content {
-  h1 {
-    @include relative-font-size(2.5);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(2.25);
-    }
-    color: red;
-  }
-}
-
-// h1 {
-//     color: blue;
-// }
-
 .site-title {
   font-weight: 500;
   font-size: 20px;
