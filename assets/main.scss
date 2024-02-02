@@ -32,6 +32,10 @@
   font-size: 20px;
 }
 
+a.post-link {
+  color: black;
+}
+
 
 a:not(.site-title):not(.page-link):not(.post-link) {
   color: red;
