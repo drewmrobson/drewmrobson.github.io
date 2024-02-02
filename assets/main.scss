@@ -3,6 +3,12 @@
 
 @import "minima";
 
+a {
+  color: black;
+  border-bottom-style: dotted;
+  border-bottom-width: thin;
+}
+
 .site-title {
   font-weight: 500;
   font-size: 20px;
@@ -28,6 +34,6 @@
   font-weight: 500;
 }
 
-a {
-  color: black;
+.post-link {
+  font-size: 20px;
 }
