@@ -5,14 +5,13 @@
 
 a {
   color: black;
-  border-bottom-style: dotted;
-  border-bottom-width: thin;
+  text-decoration: underline dotted;
 }
 
 .site-title {
   font-weight: 500;
   font-size: 20px;
-  border-bottom: 0;
+  text-decoration: none;
 }
 
 .site-header {
@@ -23,7 +22,7 @@ a {
 .page-link {
   font-size: 16px;
   font-weight: 500;
-  border-bottom: 0;
+  text-decoration: none;
 }
 
 .post-list-heading {
@@ -38,5 +37,5 @@ a {
 
 .post-link {
   font-size: 20px;
-  border-bottom: 0;
+  text-decoration: none;
 }
