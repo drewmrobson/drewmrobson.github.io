@@ -35,7 +35,7 @@ layout: base
           {{ post.excerpt }}
         {%- endif -%}
 
-        {% if post.content.size > post.excerpt.size %}
+        {%- if post.content.size > post.excerpt.size -%}
             <a href="{{ post.url | relative_url }}">
         {%- endif -%}
 
